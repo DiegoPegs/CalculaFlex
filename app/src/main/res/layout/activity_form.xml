@@ -13,14 +13,14 @@
         android:scaleType="centerCrop"
         android:src="@drawable/banner" />
 
-    <view style="@style/divider" />
+    <View style="@style/divider" />
 
     <TextView
         style="@style/header_title"
         android:drawableStart="@drawable/fuel_icon"
         android:text="Posto de Gasolina" />
 
-    <view style="@style/divider" />
+    <View style="@style/divider" />
 
     <LinearLayout style="@style/container_row">
 
@@ -47,14 +47,14 @@
 
     </LinearLayout>
 
-    <view style="@style/divider" />
+    <View style="@style/divider" />
 
     <TextView
         style="@style/header_title"
         android:drawableStart="@drawable/car_icon"
         android:text="Consumo médio" />
 
-    <view style="@style/divider" />
+    <View style="@style/divider" />
 
     <LinearLayout style="@style/container_row">
 
