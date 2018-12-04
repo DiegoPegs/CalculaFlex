@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,8 +7,9 @@
     tools:context=".ResultActivity">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         style="@style/container_master">
 
 
@@ -26,10 +27,16 @@
 
         <TextView
             style="@style/header_title"
-            tools:text="Etanol"
+            tools:text="@string/label_ethanol"
             android:textSize="48sp"
             android:gravity="center" android:id="@+id/tvSuggestion"/>
 
+        <TextView
+            android:id="@+id/tvFuelRatio"
+            style="@style/header_subtitle"
+            android:textStyle="normal"
+            android:text="@string/label_ration_fuel"
+            android:gravity="center"/>
 
         <View style="@style/divider"/>
 
@@ -65,4 +72,4 @@
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</ScrollView>
